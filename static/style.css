@@ -6,6 +6,18 @@
     font-variation-settings: "wdth" 100;
 }
 
+h2 {
+    /* font-size: 2.5rem; */
+    font-weight: 500;
+    color: hsl(191, 8%, 27%);
+}
+
+#footPiece {
+    background-color: #E7E7E7;
+    padding: 20px;
+    text-align: center;
+}
+
 #webname nav {
     display: flex;
     gap: 20px; 
@@ -66,5 +78,5 @@ table, th, td {
     clear: both;
     display: block;
     margin-top: 20px;
+    padding: 20x;
 }
-
