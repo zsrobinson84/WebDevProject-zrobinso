@@ -1,23 +1,26 @@
 * {
-    margin: 5px;
-    padding: 5px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+#webname nav {
+    display: flex;
+    gap: 20px; 
+}
 
-a {
+#webname nav a {
     text-decoration: none;
-    color: #322C32;
-    margin-right: 15px;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0 15px; 
 }
 
 #webname {
     background-color: #9E9EB6;
+    padding: 20px;
 }
-
 
 .image-banner {
     position: relative;
