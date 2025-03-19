@@ -17,3 +17,28 @@ a {
 #webname {
     background-color: #9E9EB6;
 }
+
+
+.image-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.our-story {
+    position: absolute;
+    bottom: 70%; 
+    left: 5%;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #40494B;
+}
+
+.read-below {
+    position: absolute;
+    bottom: 65%; 
+    left: 6%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #40494B;
+}
