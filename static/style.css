@@ -5,6 +5,7 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
 #webname nav {
     display: flex;
     gap: 20px; 
@@ -45,3 +46,25 @@
     font-weight: bold;
     color: #40494B;
 }
+
+#snowIncline {
+    float: left;
+    padding: 20px;
+}
+
+table, th, td {
+    margin: 20px auto; 
+    width: 40%;
+    clear: both;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+#fun-fact {
+    clear: both;
+    display: block;
+    margin-top: 20px;
+}
+
