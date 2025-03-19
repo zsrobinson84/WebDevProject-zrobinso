@@ -69,25 +69,24 @@ h2 {
     margin: 20px;
 }
 
-table th, td {
-    margin: 20px; 
+/* table th, td {
+    margin: 20px auto; 
     width: 40%;
-    clear: both;
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: none;
     text-align: center;
     padding: 10px;
-}
+    border-collapse : collapse
+} */
 
 
-/* #footerTable th, #footerTable td {
+#footerTable th, td {
     margin: 20px auto; 
     width: 40%;
     clear: both;
     border: none;
     text-align: center;
     padding: 10px;
-}  */
+} 
 
 
 
