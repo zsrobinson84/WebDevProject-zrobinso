@@ -10,6 +10,7 @@
 h2 {
     font-weight: 500;
     color: hsl(191, 8%, 27%);
+    /* padding: 20px; */
 }
 
 #footPiece {
@@ -147,4 +148,12 @@ table {
 .InfoItem1 > div{
     flex: 1;
     text-align: center;
+}
+
+.ourContainers{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+    /* background-color: #F0F0F0; */
 }
