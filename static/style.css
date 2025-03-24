@@ -91,6 +91,27 @@ table {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
 }
 
+/* PLAN YOUR VISIT PAGE */
 
+.faresContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+    background-color: #F0F0F0;
+}
 
+.faresContainer > div {
+    flex: 1;
+}
 
+.map{
+    padding: 20px;
+}
+
+#mapAPI {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
