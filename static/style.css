@@ -115,3 +115,17 @@ table {
     border-radius: 15px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
 }
+
+.videoContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.videoContainer > div {
+    flex: 1;
+}
+
+.VideoItem2{
+    margin-top: 70px;
+}
