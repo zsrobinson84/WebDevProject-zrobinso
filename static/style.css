@@ -129,3 +129,22 @@ table {
 .VideoItem2{
     margin-top: 70px;
 }
+
+/* HOME PAGE */
+.infoContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin: auto;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.InfoItem1 > div{
+    flex: 1;
+    text-align: center;
+}
