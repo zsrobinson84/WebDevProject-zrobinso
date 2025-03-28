@@ -16,10 +16,8 @@ h4{
     font-weight: bold; 
 }
 
-#footPiece {
-    background-color: #E7E7E7;
-    padding: 20px;
-    text-align: left;
+nav a{
+    text-decoration: none;  
 }
 
 /* HEADER */
@@ -43,9 +41,18 @@ h4{
 }
 
 /* FOOTER */
-.footerContainer{
+
+.footerContainer {
     display: flex;
     justify-content: space-around;
+    background-color: #E7E7E7;
+    padding: 20px;
+    text-align: left;
+    /* color: black; */
+}
+
+.footerContainer > nav {
+    color: black;
 }
 
 /* ABOUT PAGE */
