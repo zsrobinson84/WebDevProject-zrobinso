@@ -48,10 +48,9 @@ nav a{
     background-color: #E7E7E7;
     padding: 20px;
     text-align: left;
-    /* color: black; */
 }
 
-.footerContainer > nav {
+.footerContainer a {
     color: black;
 }
 
