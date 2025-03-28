@@ -9,8 +9,12 @@
 
 h2 {
     font-weight: 500;
-    color: hsl(191, 8%, 27%);
+    color: #49496D;
     /* padding: 20px; */
+}
+
+h4{
+    font-weight: bold; 
 }
 
 #footPiece {
@@ -19,21 +23,24 @@ h2 {
     text-align: center;
 }
 
-#webname nav {
+/* HEADER */
+
+.headerContainer {
     display: flex;
-    gap: 20px; 
-}
-
-#webname nav a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: white;
-    margin: 0 15px; 
-}
-
-#webname {
-    background-color: #9E9EB6;
     padding: 20px;
+    gap: 50px;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.headerContainer > nav a{
+    display: flex;
+    text-decoration: none;
+    color: #49496D;
+}
+
+.item1Header {
+    flex-grow: 1;
 }
 
 .footerContainer{
@@ -138,11 +145,12 @@ table {
     align-items: center;
     padding: 10px;
     gap: 10px;
-    margin: auto;
     border: none;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .InfoItem1 > div{
@@ -156,4 +164,9 @@ table {
     padding: 20px;
     gap: 20px;
     /* background-color: #F0F0F0; */
+}
+
+.CItem1 {
+    flex: 1;
+    margin-top: 1000;
 }
