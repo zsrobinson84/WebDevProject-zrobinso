@@ -201,3 +201,18 @@ table {
 .item1i {
     flex: 1;
 }
+
+.contactFormContainer{
+    background-color: #F0F0F0;
+}
+
+.FAQContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: left;
+}
+
+.item2faq{
+    flex: 4;
+}
