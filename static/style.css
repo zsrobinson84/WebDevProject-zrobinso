@@ -189,3 +189,15 @@ table {
 .citem3 {
     max-width: 100%; 
 }
+
+/* CONTACT PAGE */
+.contactInfoContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: left;
+}
+
+.item1i {
+    flex: 1;
+}
