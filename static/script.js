@@ -1,3 +1,4 @@
+// WAITING TIMES
 function busy(){
     var busy = document.getElementById("waitingTime");
     var d = new Date();  
@@ -14,10 +15,20 @@ function busy(){
     else{
         busy.innerHTML = "Not Busy";
     }
-    console.log("hi1");
 }
 
 var locationPage = window.location.href;
 if (locationPage.includes("index.html")) {  
     busy();  
+    // updateElement();
 }
+
+// INFOMRATION TO KNOW TODAY
+function updateElement(){
+    var info = document.getElementById("infoForToday");
+    var arrayOfInfo = ["The weather can change, make sure to bring a coat!", "Check out our gift shop for fun souvenirs!", "We offer free tours for high schools!", "Get a fresh view of Pittsburgh from our cable car!"];
+    var randomInfo = arrayOfInfo[Math.floor(Math.random() * arrayOfInfo.length)];
+    info.innerHTML = randomInfo;
+}
+setInterval(updateElement, 3600000); //found documentaiton for this
+updateElement();
