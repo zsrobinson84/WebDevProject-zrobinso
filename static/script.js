@@ -26,7 +26,7 @@ if (locationPage.includes("index.html")) {
 // INFOMRATION TO KNOW TODAY
 function updateElement(){
     var info = document.getElementById("infoForToday");
-    var arrayOfInfo = ["The weather can change, make sure to bring a coat!", "Check out our gift shop for fun souvenirs!", "We offer free tours for high schools!", "Get a fresh view of Pittsburgh from our cable car!"];
+    var arrayOfInfo = ["The weather can change, make sure to bring a coat!", "Check out our gift shop for fun souvenirs!", "We offer free tours for high schools!", "We offer a fresh view of Pittsburgh from our cable car!"];
     var randomInfo = arrayOfInfo[Math.floor(Math.random() * arrayOfInfo.length)];
     info.innerHTML = randomInfo;
 }

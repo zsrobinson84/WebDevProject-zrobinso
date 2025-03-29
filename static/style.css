@@ -209,10 +209,11 @@ table {
 .FAQContainer{
     display: flex;
     justify-content: space-evenly;
+    /* gap: 40px; */
     padding: 20px;
     text-align: left;
 }
 
-.item2faq{
-    flex: 4;
+.FAQContainer > div {
+    flex: 1;
 }
