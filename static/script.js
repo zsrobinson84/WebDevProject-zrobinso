@@ -32,3 +32,15 @@ function updateElement(){
 }
 setInterval(updateElement, 3600000); //found documentaiton for this
 updateElement();
+
+
+//JQUERY FOR INTERACTIVE PIECE (HOME PAGE)
+$(document).ready(function(){
+    $("div.gallery").hover(function(){
+      $(this).css("border", "1px solid #777");
+      }, function(){
+      $(this).css("border", "1px solid #ccc");
+    });
+});
+
+
