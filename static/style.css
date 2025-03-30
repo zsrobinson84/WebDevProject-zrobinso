@@ -203,6 +203,11 @@ float: left;
 width: 24.99999%;
 }
 
+#aboutUs{
+    font-weight: 500;
+    color: black;
+}
+
 /* CONTACT PAGE */
 .contactInfoContainer{
     display: flex;
