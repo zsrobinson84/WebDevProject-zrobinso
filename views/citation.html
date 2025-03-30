@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -13,6 +14,10 @@
         <nav class = "item3"><a href="about.html"><h1>ABOUT US</h1></a></nav>
         <nav class = "item4"><a href="contact.html"><h1>CONTACT US</h1></a></nav>
     </header>
+    <h1>Weather Information</h1>
+    <p id="weatherText">Fetching temperature...</p>
+    <button onclick="getTemperature()">Get Temperature</button>
+    
     <footer class="footerContainer"> 
         <div class = "item1">
             <h3>CONTACT INFO</h3>
