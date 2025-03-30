@@ -39,28 +39,29 @@
             <p>Get updates delivered directly to your inbox with news, events, and special offers!</p>
         </div>
         <div class = "formContainer"><form>
-            <div class = "col1">
-                <label for="name"><h4>First Name</h4></label>
-                <input type="text" name="name" id="name" required>
-                <label for="email"><h4>Email</h4></label>
-                <input type="email" name ="email" id="email" required>
-            </div>
-            <div class = "col2">
-                <label for="last"><h4>Last Name</h4></label>
-                <input type="text" name="last" id="last" required>
-                <label for="phone"><h4>Phone Number</h4></label>
-                <!-- found pattern for phone number validation from w3-->
-                <input type="tel" name ="phone" id="phone" pattern = "[0-9]{3}-[0-9]{2}-[0-9]{3}"> 
-                <input type="submit" value="Send" onclick="validate()">
-                
-            </div>
-            <div class = "col3">
-                <label for="zip"><h4>Zip Code</h4></label>
-                <!-- took pattern from 67-272 -->
-                <input type="tel" name ="zip" id="zip" pattern = "^\d{5}$">
-            </div></form>
+            <label for="name"><h4>First Name</h4></label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="last"><h4>Last Name</h4></label>
+            <input type="text" name="last" id="last" required>
+
+            <label for="email"><h4>Email</h4></label>
+            <input type="email" name ="email" id="email" required>
+
+            <label for="phone"><h4>Phone Number</h4></label>
+            <!-- found pattern for phone number validation from w3-->
+            <input type="tel" name ="phone" id="phone" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"> 
+            
+            <label for="zip"><h4>Zip Code</h4></label>
+            <!-- took pattern from 67-272 -->
+            <input type="tel" name ="zip" id="zip" pattern = "^\d{5}$">
+
+            <input type="checkbox" id="agree" name="agree" value="agree">
+            <label for="agree"> I want to recieve notifications via SMS</label><br>
+
+            <input type="submit" value="Send" onclick="validate()">
+            </form>
         </div>
-        <p id="ValidateMsg">hi</p>
     </div>
     <div class = "FAQContainer">
         <div class = "item1">

@@ -32,16 +32,3 @@ function updateElement(){
 }
 setInterval(updateElement, 3600000); //found documentaiton for this
 updateElement();
-
-//form validation
-function validate(){
-    var name = document.getElementById("name");
-    var lastName = document.getElementById("last");
-    var email = document.getElementById("email");
-    var phone = document.getElementById("phone");
-    var zip = document.getElementById("zip");
-    var msg = document.getElementById("ValidateMsg");
-    if(!name.checkValidity() || !lastName.checkValidity() || !email.checkValidity() || !phone.checkValidity() || !zip.checkValidity()){
-        msg.innerHTML = "Please fill out the form correctly so I can get back to you.";
-    }
-}
