@@ -226,8 +226,6 @@ label{
     width: 100%;
 }
 
-
-
 .contactFormContainer {
     background-color: #F0F0F0;
     display: flex;
@@ -248,7 +246,6 @@ input{
     padding: 3px;
     
 } 
-
 
 input[type="submit"] {
     background-color: #49496D;
