@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 // API - read documentation for information
 function getTemperature() {
-    var url = `http://api.weatherstack.com/current?access_key=2b768f8f17b7869549fe38dba51c48c9&query=Pittsburgh`;
+    var url = `https://api.weatherstack.com/current?access_key=2b768f8f17b7869549fe38dba51c48c9&query=Pittsburgh`;
     var info = document.getElementById("infoForToday");
 
     fetch(url)
