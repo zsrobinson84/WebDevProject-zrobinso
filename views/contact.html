@@ -36,7 +36,7 @@
     <div class = "contactFormContainer">
         <div class = "item1">
             <h2>JOIN OUR MAILING LIST</h2>
-            <p>Get updates delivered directly to your inbox with news, events, and special offers! Your phone number must be in the following format: ###-###-####.</p>
+            <p>Get updates delivered directly to your inbox with news, events, and special offers! Your phone number (if given) must be in the following format: ###-###-####.</p>
         </div>
         <div class = "formContainer"><form>
             <label for="name"><h4>First Name</h4></label>
@@ -48,11 +48,11 @@
             <label for="email"><h4>Email</h4></label>
             <input type="email" name ="email" id="email" size = 30 required>
 
-            <label for="phone"><h4>Phone Number</h4></label>
+            <label for="phone"><h4>Phone Number (optional)</h4></label>
             <!-- found pattern for phone number validation from w3-->
             <input type="tel" name ="phone" id="phone" size = 30 pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"> 
             
-            <label for="zip"><h4>Zip Code</h4></label>
+            <label for="zip"><h4>Zip Code (optional)</h4></label>
             <!-- took pattern from 67-272 -->
             <input type="tel" name ="zip" id="zip" pattern = "^\d{5}$">
 
