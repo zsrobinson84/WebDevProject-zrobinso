@@ -271,3 +271,8 @@ input[type="submit"] {
     text-align: left;
     background-color: #F0F0F0;
 }
+
+#titel1{
+    padding: 20px;
+    text-indent: 10px;
+}
