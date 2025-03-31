@@ -179,25 +179,22 @@ table {
     gap: 20px;
 } 
 
-div.gallery {
+.gallery {
 border: 1px solid #ccc;
 }
 
-div.gallery img {
+.gallery img {
 width: 100%;
 height: auto;
 }
 
-div.desc {
+.description {
 padding: 15px;
 text-align: center;
 }
 
-* {
-box-sizing: border-box;
-}
 
-.responsive {
+.hoverImplementation {
 padding: 0 6px;
 float: left;
 width: 24.99999%;
