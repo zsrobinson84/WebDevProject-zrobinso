@@ -45,20 +45,15 @@ $(document).ready(function(){
 });
 
 
-// API
+// API - read documentation for information
 function getTemperature() {
-    const apiKey = "2b768f8f17b7869549fe38dba51c48c9";
-    const city = "Pittsburgh";
-    const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`;
+    var url = `http://api.weatherstack.com/current?access_key=2b768f8f17b7869549fe38dba51c48c9&query=Pittsburgh`;
     var info = document.getElementById("infoForToday");
 
     fetch(url)
-        .then(response => response.json()) // Convert response to JSON
+        .then(response => response.json()) 
         .then(data => {
-            if (data.success === false) {
-                throw new Error(data.error.info); // Handle API errors
-            }
-            const temperature = data.current.temperature; // Extract temperature
+            const temperature = data.current.temperature; 
             temperatureF = convertToFahrenheit(temperature);
             info.innerText = `Current temperature in Pittsburgh: ${temperatureF}°F`;
         })
