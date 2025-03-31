@@ -20,6 +20,7 @@ function busy(){
 var locationPage = window.location.href;
 if (locationPage.includes("index.html")) {  
     busy();  
+    getTemperature();
     // updateElement();
 }
 
@@ -30,9 +31,7 @@ if (locationPage.includes("index.html")) {
 //     var randomInfo = arrayOfInfo[Math.floor(Math.random() * arrayOfInfo.length)];
 //     info.innerHTML = randomInfo;
 // }
-setInterval(getTemperature, 3600000); //found documentaiton for this
-getTemperature();
-// updateElement();
+
 
 
 //JQUERY FOR INTERACTIVE PIECE (HOME PAGE)
@@ -46,6 +45,7 @@ $(document).ready(function(){
 
 
 // API - read documentation for information
+
 function getTemperature() {
     var url = `https://api.weatherstack.com/current?access_key=2b768f8f17b7869549fe38dba51c48c9&query=Pittsburgh`;
     var info = document.getElementById("infoForToday");
@@ -53,6 +53,7 @@ function getTemperature() {
     fetch(url)
         .then(response => response.json()) 
         .then(data => {
+            console.log(data);
             const temperature = data.current.temperature; 
             temperatureF = convertToFahrenheit(temperature);
             info.innerText = `Current temperature in Pittsburgh: ${temperatureF}°F`;
